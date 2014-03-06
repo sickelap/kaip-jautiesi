@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background: #0D222D;
+}
+p {
+  margin: 20px 0;
+  font-size: 28px;
+}
+hr {
+  margin-bottom: 0;
+}
+li {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 10px;
+  display: inline-block;
+  opacity: .6;
+  line-height: 150px;
+}
+li .name {
+  display: block;
+}
+li .count {
+  display: none;
+}
+li:hover .name {
+  display: none;
+}
+li:hover .count {
+  display: block;
+}
+.glow {
+  -webkit-animation: glow 0.5s linear;
+  -moz-animation: glow 0.5s linear;
+  -ms-animation: glow 0.5s linear;
+  -o-animation: glow 0.5s linear;
+  animation: glow 0.5s linear;
+}
+@-webkit-keyframes glow {
+  0% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  20% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0);
+    opacity: 0.75;
+  }
+}
+@-moz-keyframes glow {
+  0% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  20% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0);
+    opacity: 0.75;
+  }
+}
+@-ms-keyframes glow {
+  0% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  20% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0);
+    opacity: 0.75;
+  }
+}
+@-o-keyframes glow {
+  0% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  20% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0);
+    opacity: 0.75;
+  }
+}
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  20% {
+    box-shadow: 0 0 15px #ffffff;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0);
+    opacity: 0.75;
+  }
+}
